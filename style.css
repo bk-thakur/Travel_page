@@ -1,0 +1,35 @@
+body {
+  padding-top: 70px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #9ea1a2;
+  color: #f0f0f0;
+}
+
+.hero-section {
+  height: 100vh;
+  background: url('assets/background.jpg') center center/cover no-repeat;
+  background-color: rgba(228, 230, 231, 0.6);
+  background-blend-mode: darken;
+}
+
+section#book {
+  background-color: #c0baba;
+  color: #ffffff;
+}
+
+input.form-control {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+input.form-control:focus {
+  background-color: #2c2c2c;
+  color: #fff;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+label.form-label {
+  color: #ccc;
+}
